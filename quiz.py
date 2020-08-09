@@ -80,5 +80,6 @@ elif zgadl_artyste and not zgadl_tytul:
 else:
     print(f"Niepoprawna odpowiedź, prawidłowy tytuł to {piosenka['tytul']}, a artysta to {piosenka['artysta']}")
 
-# Zmodyfikuj program, aby dane o piosence były przechowywane w słowniku.
-# Popraw wszystkie odwołania do zmiennych, żeby program działał prawidłowo
+# Stwórz listę przechowującą 3 słowniki zawierające informacje o piosenkach (artysta, tytul, tekst).
+# Zapytaj użytkownika, żeby odgadł wszystkie 3 piosenki,
+# dostęp do konkretnej piosenki powinien odbyć się poprzez indeks listy (np. lista_piosenek[0])
