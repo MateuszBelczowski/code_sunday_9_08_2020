@@ -144,26 +144,26 @@ Dla nich zawsze śpiewam, dla nich gram
 Jeszcze raz żegnam was, nie spotkamy się (x2) """
     },
 ]
-piosenka = lista_piosenek[0]
-print(f"Utwór {piosenka['tytul']} wykonawcy {piosenka['artysta']}")
-print(piosenka['rok'])
 imie = input("Podaj swoje imię: ")
 print(f"Cześć {imie}, witamy w najlepszym quizie")
-liczba_znakow = int(input("Podaj liczbę znaków: "))
-print(piosenka['tekst_piosenki'][:liczba_znakow])
+for piosenka in lista_piosenek:
+    print(f"Utwór {piosenka['tytul']} wykonawcy {piosenka['artysta']}")
+    print(piosenka['rok'])
+    liczba_znakow = int(input("Podaj liczbę znaków: "))
+    print(piosenka['tekst_piosenki'][:liczba_znakow])
 
-tytul_uzytkownika = input("Jaki jest tytuł tej piosenki?")
-artysta_uzytkownika = input("Jaki jest wykonawca tej piosenki?")
-zgadl_tytul = tytul_uzytkownika.lower() == piosenka['tytul'].lower()
-zgadl_artyste = artysta_uzytkownika.lower() == piosenka['artysta'].lower()
-if zgadl_tytul and zgadl_artyste:
-    print("Brawo, zgadłeś")
-elif zgadl_tytul and not zgadl_artyste:
-    print(f"Prawidłowy tytuł, ale błędny wykonawca -> {piosenka['artysta']}")
-elif zgadl_artyste and not zgadl_tytul:
-    print(f"Prawidłowy artysta, ale błędny tytuł -> {piosenka['tytul']}")
-else:
-    print(f"Niepoprawna odpowiedź, prawidłowy tytuł to {piosenka['tytul']}, a artysta to {piosenka['artysta']}")
+    tytul_uzytkownika = input("Jaki jest tytuł tej piosenki?")
+    artysta_uzytkownika = input("Jaki jest wykonawca tej piosenki?")
+    zgadl_tytul = tytul_uzytkownika.lower() == piosenka['tytul'].lower()
+    zgadl_artyste = artysta_uzytkownika.lower() == piosenka['artysta'].lower()
+    if zgadl_tytul and zgadl_artyste:
+        print("Brawo, zgadłeś")
+    elif zgadl_tytul and not zgadl_artyste:
+        print(f"Prawidłowy tytuł, ale błędny wykonawca -> {piosenka['artysta']}")
+    elif zgadl_artyste and not zgadl_tytul:
+        print(f"Prawidłowy artysta, ale błędny tytuł -> {piosenka['tytul']}")
+    else:
+        print(f"Niepoprawna odpowiedź, prawidłowy tytuł to {piosenka['tytul']}, a artysta to {piosenka['artysta']}")
 
 # Stwórz listę przechowującą 3 słowniki zawierające informacje o piosenkach (artysta, tytul, tekst).
 # Zapytaj użytkownika, żeby odgadł wszystkie 3 piosenki,
