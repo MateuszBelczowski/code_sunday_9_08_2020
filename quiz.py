@@ -57,7 +57,16 @@ Jesteś sterem, białym żołnierzem
 Nosisz spodnie, więc walcz
 Jesteś żaglem, szalonym wiatrem
 Twoja siła to skarb"""
+
 print(f"Utwór {tytul} wykonawcy {artysta}")
 print(rok)
-liczba_znakow = 100
+imie = input("Podaj swoje imię: ")
+print(f"Cześć {imie}, witamy w najlepszym quizie")
+liczba_znakow = int(input("Podaj liczbę znaków: "))
 print(tekst_piosenki[:liczba_znakow])
+
+
+
+# 1) przywitać użytkownika - zapytać go o imię i
+# potem np. wyświetlić "Cześć, Mateusz. Witamy w quizie muzycznym"
+# 2) ile znaków z tekstu chcesz wyświetlić?
