@@ -1,3 +1,6 @@
+artysta = "Bajm"
+tytul = "Biała Armia"
+rok = 1978
 tekst_piosenki = """To Twoja flaga, nasz młody przyjacielu
 Nie musisz kochać jej barw, o nie
 To Twoja armia i życie w ciągłym biegu
@@ -55,4 +58,7 @@ Nosisz spodnie, więc walcz
 Jesteś żaglem, szalonym wiatrem
 Twoja siła to skarb"""
 
+print(artysta)
+print(tytul)
+print(rok)
 print(tekst_piosenki)
