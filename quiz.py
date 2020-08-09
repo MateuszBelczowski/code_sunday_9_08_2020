@@ -1,3 +1,5 @@
+import random
+
 lista_piosenek = [
     {
         "artysta": "Bajm",
@@ -146,7 +148,7 @@ Jeszcze raz żegnam was, nie spotkamy się (x2) """
 ]
 imie = input("Podaj swoje imię: ")
 print(f"Cześć {imie}, witamy w najlepszym quizie")
-for piosenka in lista_piosenek:
+for piosenka in random.sample(lista_piosenek, 3):
     print(f"Utwór {piosenka['tytul']} wykonawcy {piosenka['artysta']}")
     print(piosenka['rok'])
     liczba_znakow = int(input("Podaj liczbę znaków: "))
