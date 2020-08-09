@@ -11,3 +11,7 @@ print(tekst[-1])
 liczba_znakow = len(tekst)
 
 print(f"Liczba znaków w tekście to {len(tekst)}")
+
+napis1 = "AlA mA Kota"
+napis2 = "Ala ma kota"
+print(napis1.lower() == napis2.lower())

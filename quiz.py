@@ -65,9 +65,13 @@ print(f"Cześć {imie}, witamy w najlepszym quizie")
 liczba_znakow = int(input("Podaj liczbę znaków: "))
 print(tekst_piosenki[:liczba_znakow])
 
+tytul_uzytkownika = input("Jaki jest tytuł tej piosenki?")
+if tytul_uzytkownika.lower() == tytul.lower():
+    print("Brawo, zgadłeś")
+else:
+    print(f"Niepoprawna odpowiedź, prawidłowy tytuł to {tytul}")
+
 """
-Zapytaj użytkownika, jaki tytuł ma dana piosenka, dla której wyświetlamy tekst.
-W przypadku prawidłowej odpowiedzi wyświetl komunikat z gratulacjami,
-w przypadku błędnej odpowiedzi poinformuj użytkownika,
-jaka jest prawidłowa odpowiedź
+Zapytaj użytkownika również o artystę:
+- tylko w przypadku poprawnych obu odpowiedzi, uznajemy, że zgadł
 """
