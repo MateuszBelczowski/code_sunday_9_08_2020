@@ -58,6 +58,7 @@ Nosisz spodnie, więc walcz
 Jesteś żaglem, szalonym wiatrem
 Twoja siła to skarb"""
 
+
 print(f"Utwór {tytul} wykonawcy {artysta}")
 print(rok)
 imie = input("Podaj swoje imię: ")
@@ -77,3 +78,6 @@ elif zgadl_artyste and not zgadl_tytul:
     print(f"Prawidłowy artysta, ale błędny tytuł -> {tytul}")
 else:
     print(f"Niepoprawna odpowiedź, prawidłowy tytuł to {tytul}, a artysta to {artysta}")
+
+# Zmodyfikuj program, aby dane o piosence były przechowywane w słowniku.
+# Popraw wszystkie odwołania do zmiennych, żeby program działał prawidłowo
