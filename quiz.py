@@ -65,8 +65,9 @@ print(f"Cześć {imie}, witamy w najlepszym quizie")
 liczba_znakow = int(input("Podaj liczbę znaków: "))
 print(tekst_piosenki[:liczba_znakow])
 
-
-
-# 1) przywitać użytkownika - zapytać go o imię i
-# potem np. wyświetlić "Cześć, Mateusz. Witamy w quizie muzycznym"
-# 2) ile znaków z tekstu chcesz wyświetlić?
+"""
+Zapytaj użytkownika, jaki tytuł ma dana piosenka, dla której wyświetlamy tekst.
+W przypadku prawidłowej odpowiedzi wyświetl komunikat z gratulacjami,
+w przypadku błędnej odpowiedzi poinformuj użytkownika,
+jaka jest prawidłowa odpowiedź
+"""
