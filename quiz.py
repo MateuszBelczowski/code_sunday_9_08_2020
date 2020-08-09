@@ -144,7 +144,7 @@ Dla nich zawsze śpiewam, dla nich gram
 Jeszcze raz żegnam was, nie spotkamy się (x2) """
     },
 ]
-
+piosenka = lista_piosenek[0]
 print(f"Utwór {piosenka['tytul']} wykonawcy {piosenka['artysta']}")
 print(piosenka['rok'])
 imie = input("Podaj swoje imię: ")
