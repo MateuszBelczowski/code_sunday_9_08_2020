@@ -10,7 +10,8 @@ print(slownik["imie"])
 slownik2 = {
     "imie": "Jan",
     "nazwisko": "Kowalski",
-    "adres": "Konwaliowa 123, Gdańsk"
+    "adres": """
+    Konwaliowa 123, Gdańsk"""
 }
 print(slownik2["imie"])
 slownik2["imie"] = "Krzysztof"
