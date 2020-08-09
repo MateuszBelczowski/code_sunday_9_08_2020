@@ -1,4 +1,4 @@
-print("""To Twoja flaga, nasz młody przyjacielu
+tekst_piosenki = """To Twoja flaga, nasz młody przyjacielu
 Nie musisz kochać jej barw, o nie
 To Twoja armia i życie w ciągłym biegu
 Nigdy nie będziesz już sam
@@ -53,4 +53,6 @@ Twoja siła to skarb
 Jesteś sterem, białym żołnierzem
 Nosisz spodnie, więc walcz
 Jesteś żaglem, szalonym wiatrem
-Twoja siła to skarb""")
+Twoja siła to skarb"""
+
+print(tekst_piosenki)
