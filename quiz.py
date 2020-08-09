@@ -59,4 +59,5 @@ Jesteś żaglem, szalonym wiatrem
 Twoja siła to skarb"""
 print(f"Utwór {tytul} wykonawcy {artysta}")
 print(rok)
-print(tekst_piosenki)
+liczba_znakow = 100
+print(tekst_piosenki[:liczba_znakow])
