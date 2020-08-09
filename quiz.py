@@ -57,8 +57,6 @@ Jesteś sterem, białym żołnierzem
 Nosisz spodnie, więc walcz
 Jesteś żaglem, szalonym wiatrem
 Twoja siła to skarb"""
-
-print(artysta)
-print(tytul)
+print(f"Utwór {tytul} wykonawcy {artysta}")
 print(rok)
 print(tekst_piosenki)
