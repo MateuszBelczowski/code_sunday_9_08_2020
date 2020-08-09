@@ -78,6 +78,18 @@ elif zgadl_artyste and not zgadl_tytul:
 else:
     print(f"Niepoprawna odpowiedź, prawidłowy tytuł to {tytul}, a artysta to {artysta}")
 
+# podejście z !=
+odpowiedz_tytul = input("Jaki jest tytuł piosenki?: ")
+odpowiedz_artysta = input("Kto wykonuje ta piosenke?: ")
+if odpowiedz_tytul == tytul and odpowiedz_artysta == artysta:
+    print(f"Gratulacje, poprawna odpowiedz, wygrałeś, poprawny wykonawca to {artysta} ")
+elif odpowiedz_tytul == tytul and odpowiedz_artysta != artysta:
+    print("Poprawny tytuł lecz zły wykonawca")
+elif odpowiedz_tytul != tytul and odpowiedz_artysta == artysta:
+    print(f"Poprawny wykonawca lecz zły tytuł, poprawny tytuł to {tytul} ")
+else:
+    print(f"Zła odpowiedź, prawidłowa odpowieź to utwór {tytul} wykonany przez {artysta}")
+
 """
 Zapytaj użytkownika również o artystę:
 - tylko w przypadku poprawnych obu odpowiedzi, uznajemy, że zgadł
