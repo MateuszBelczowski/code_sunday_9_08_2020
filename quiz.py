@@ -66,10 +66,17 @@ liczba_znakow = int(input("Podaj liczbę znaków: "))
 print(tekst_piosenki[:liczba_znakow])
 
 tytul_uzytkownika = input("Jaki jest tytuł tej piosenki?")
-if tytul_uzytkownika.lower() == tytul.lower():
+artysta_uzytkownika = input("Jaki jest wykonawca tej piosenki?")
+zgadl_tytul = tytul_uzytkownika.lower() == tytul.lower()
+zgadl_artyste = artysta_uzytkownika.lower() == artysta.lower()
+if zgadl_tytul and zgadl_artyste:
     print("Brawo, zgadłeś")
+elif zgadl_tytul and not zgadl_artyste:
+    print(f"Prawidłowy tytuł, ale błędny wykonawca -> {artysta}")
+elif zgadl_artyste and not zgadl_tytul:
+    print(f"Prawidłowy artysta, ale błędny tytuł -> {tytul}")
 else:
-    print(f"Niepoprawna odpowiedź, prawidłowy tytuł to {tytul}")
+    print(f"Niepoprawna odpowiedź, prawidłowy tytuł to {tytul}, a artysta to {artysta}")
 
 """
 Zapytaj użytkownika również o artystę:
