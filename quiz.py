@@ -1,64 +1,149 @@
-piosenka = {
-    "artysta": "Bajm",
-    "tytul": "Biała armia",
-    "rok": 1978,
-    "tekst_piosenki": """To Twoja flaga, nasz młody przyjacielu
-Nie musisz kochać jej barw, o nie
-To Twoja armia i życie w ciągłym biegu
-Nigdy nie będziesz już sam
-Możesz wreszcie zachłysnąć się powietrzem
-I unieść do góry jak ptak, he-hej
-Możesz wreszcie zabłądzić w wielkim mieście
-Urodziłeś się, by służyć nam
+lista_piosenek = [
+    {
+        "artysta": "Bajm",
+        "tytul": "Biała armia",
+        "rok": 1978,
+        "tekst_piosenki": """To Twoja flaga, nasz młody przyjacielu
+                              Nie musisz kochać jej barw, o nie
+                              To Twoja armia i życie w ciągłym biegu
+                              Nigdy nie będziesz już sam
+                              Możesz wreszcie zachłysnąć się powietrzem
+                              I unieść do góry jak ptak, he-hej
+                              Możesz wreszcie zabłądzić w wielkim mieście
+                              Urodziłeś się, by służyć nam
+                              
+                              Właśnie nadszedł ten czas
+                              Whoah, to jest właśnie ten czas
+                              
+                              Ref.:
+                              Jesteś sterem, białym żołnierzem
+                              Nosisz spodnie, więc walcz
+                              Jesteś żaglem, szalonym wiatrem
+                              Twoja siła to skarb
+                              
+                              Bóg jest z nami, jego prawda
+                              Jak tarcza Cię ocali
+                              Czekałeś na ten dzień tyle lat
+                              Ruszaj z nami, z wątłymi marzeniami
+                              Z ufnością, którą jeszcze masz
+                              
+                              Właśnie nadszedł ten czas
+                              Whoah, to jest właśnie ten czas
+                              
+                              Jesteś sterem, białym żołnierzem
+                              Nosisz spodnie, więc walcz
+                              Jesteś żaglem, szalonym wiatrem
+                              Twoja siła to skarb
+                              
+                              Jesteś sterem, białym żołnierzem
+                              Nosisz spodnie, więc walcz
+                              Jesteś żaglem, szalonym wiatrem
+                              Twoja siła to skarb
+                              
+                              Jesteś sterem, białym żołnierzem
+                              Nosisz spodnie, więc walcz
+                              Jesteś żaglem, szalonym wiatrem
+                              Twoja siła to skarb
+                              
+                              Jesteś sterem, białym żołnierzem
+                              Nosisz spodnie, więc walcz
+                              Jesteś żaglem, szalonym wiatrem
+                              Twoja siła to skarb
+                              
+                              Jesteś sterem, białym żołnierzem
+                              Nosisz spodnie, więc walcz
+                              Jesteś żaglem, szalonym wiatrem
+                              Twoja siła to skarb
+                              
+                              Jesteś sterem, białym żołnierzem
+                              Nosisz spodnie, więc walcz
+                              Jesteś żaglem, szalonym wiatrem
+                              Twoja siła to skarb"""
+    },
+    {
+        "artysta": "Lady Pank",
+        "tytul": "Kryzysowa Narzeczona",
+        "rok": 1978,
+        "tekst_piosenki": """Mogłaś moją być
+Kryzysową narzeczoną
+Razem ze mną pić
+To, co nam tu nawarzono
+Mogłaś moją być
+Przy zgłuszonym odbiorniku
+Aż po blady świt
+Słuchać nowin i uderzać w gaz
+Nie jeden raz
+Nie jeden raz
+Nie jeden raz
 
-Właśnie nadszedł ten czas
-Whoah, to jest właśnie ten czas
+Mogłaś być już na dnie
+A nie byłaś
+Nigdy nie dowiesz się
+Co straciłaś
 
-Ref.:
-Jesteś sterem, białym żołnierzem
-Nosisz spodnie, więc walcz
-Jesteś żaglem, szalonym wiatrem
-Twoja siła to skarb
+Mogłaś moją być
+Kryzysową narzeczoną
+Pomalutku żyć
+Tak jak nam tu naznaczono
+Mogłaś moją być
+Jakoś ze mną przebiedować
+Zamiast życzyć mi
+Na pocztówce nie wiadomo skąd
+Wesołych świąt
+Wesołych świąt
+Wesołych świąt
 
-Bóg jest z nami, jego prawda
-Jak tarcza Cię ocali
-Czekałeś na ten dzień tyle lat
-Ruszaj z nami, z wątłymi marzeniami
-Z ufnością, którą jeszcze masz
+Mogłaś być już na dnie
+A nie byłaś
+Nigdy nie dowiesz się
+Co straciłaś
+Mogłaś być już na dnie
+A nie byłaś
+Nigdy... Nigdy nie dowiesz się
 
-Właśnie nadszedł ten czas
-Whoah, to jest właśnie ten czas
+Mogłaś moją być
+Zamiast życzyć mi
+Wesołych świąt
+Wesołych świąt
+Wesołych świąt
 
-Jesteś sterem, białym żołnierzem
-Nosisz spodnie, więc walcz
-Jesteś żaglem, szalonym wiatrem
-Twoja siła to skarb
+Mogłaś być już na dnie
+A nie byłaś
+Nigdy nie dowiesz się
+Co straciłaś
+Mogłaś być już na dnie
+A nie byłaś
+Nigdy... Nigdy nie dowiesz się """
+    },
+    {
+        "artysta": "Perfect",
+        "tytul": "Nie płacz Ewka",
+        "rok": 1978,
+        "tekst_piosenki": """Nie płacz, Ewka, bo tu miejsca brak na twe babskie łzy
+Po ulicy miłość hula wiatr wśród rozbitych szyb
+Patrz, poeci śliczni prawdy sens roztrwonili w grach
+W półlitrówkach pustych SOS wysyłają w świat
 
-Jesteś sterem, białym żołnierzem
-Nosisz spodnie, więc walcz
-Jesteś żaglem, szalonym wiatrem
-Twoja siła to skarb
+Żegnam was, już wiem
+Nie załatwię wszystkich pilnych spraw
+Idę sam, właśnie tam, gdzie czekają mnie
+Tam przyjaciół kilku mam od lat
+Dla nich zawsze śpiewam, dla nich gram
+Jeszcze raz żegnam was, nie spotkamy się
 
-Jesteś sterem, białym żołnierzem
-Nosisz spodnie, więc walcz
-Jesteś żaglem, szalonym wiatrem
-Twoja siła to skarb
+Proza życia to przyjaźni kat, pęka cienka nić
+Telewizor, meble, mały fiat: oto marzeń szczyt
+Hej, prorocy moi z gniewnych lat, obrastacie w tłuszcz
+Już was w swoje szpony dopadł szmal, zdrada płynie z ust
 
-Jesteś sterem, białym żołnierzem
-Nosisz spodnie, więc walcz
-Jesteś żaglem, szalonym wiatrem
-Twoja siła to skarb
-
-Jesteś sterem, białym żołnierzem
-Nosisz spodnie, więc walcz
-Jesteś żaglem, szalonym wiatrem
-Twoja siła to skarb
-
-Jesteś sterem, białym żołnierzem
-Nosisz spodnie, więc walcz
-Jesteś żaglem, szalonym wiatrem
-Twoja siła to skarb"""
-}
+Żegnam was, już wiem
+Nie załatwię wszystkich pilnych spraw
+Idę sam, właśnie tam, gdzie czekają mnie
+Tam przyjaciół kilku mam od lat
+Dla nich zawsze śpiewam, dla nich gram
+Jeszcze raz żegnam was, nie spotkamy się (x2) """
+    },
+]
 
 print(f"Utwór {piosenka['tytul']} wykonawcy {piosenka['artysta']}")
 print(piosenka['rok'])
